@@ -99,7 +99,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="..\FrmMain.Biblioteca.pas">
-            <Form>Form1</Form>
+            <Form>FrmMainBiblioteca</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

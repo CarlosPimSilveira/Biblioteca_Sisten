@@ -2,13 +2,13 @@ program ProjectBiblioteca;
 
 uses
   Vcl.Forms,
-  FrmMain.Biblioteca in '..\FrmMain.Biblioteca.pas' {Form1};
+  FrmMain.Biblioteca in '..\FrmMain.Biblioteca.pas' {FrmMainBiblioteca};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmMainBiblioteca, FrmMainBiblioteca);
   Application.Run;
 end.
